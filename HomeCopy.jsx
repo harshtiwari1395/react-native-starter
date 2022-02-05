@@ -1,0 +1,36 @@
+
+import React, { useState } from "react";
+import { StyleSheet, Text,Button,  TouchableHighlight, View, Modal ,Alert,Pressable } from "react-native";
+
+const TouchableHighlightExample = () => {
+
+ 
+  return (
+    <View style={styles.container}>
+        <Text>hjbfnfvskn</Text>
+    </View>
+  );
+}
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: "center",
+    paddingHorizontal: 10
+  },
+  button: {
+    alignItems: "center",
+    backgroundColor: "#DDDDDD",
+    padding: 10
+  },
+  countContainer: {
+    alignItems: "center",
+    justifyContent: "center",
+    padding: 10
+  },
+  countText: {
+    color: "#FF00FF"
+  }
+});
+
+export default TouchableHighlightExample;
